@@ -2,7 +2,7 @@
 Práctica para la materia Ing. de Software III
 
 ## Descripción
-Este es un playground para subir commits y practicar con la herramienta de Control de Versiones Git.
+Aquí se suben commits con herramientas de control de versiones de Git usando Github.
 
 ### Ramas
 - `main` Es la rama estable, contiene los cambios que han sido testeados.
