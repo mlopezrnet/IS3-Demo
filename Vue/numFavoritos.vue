@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     validarNum() {
-      return this.esNumExistente || this.numero.length == 0;
+      return this.esNumExistente || this.numero.length == 0 || isNaN(parseInt(this.numero));
     },
     esNumExistente() {
       return this.numFavoritos.includes(parseInt(this.numero));
