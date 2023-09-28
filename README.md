@@ -10,12 +10,3 @@ Este es un playground para subir commits y practicar con la herramienta de Contr
 - `develop-karo` Rama inestable de @karolinaconk.
 
 También habrá feature branches donde se hospedarán los cambios para algún Pull Request o característica que sea de medio a largo plazo de desarrollo.
-
-### Prueba para revertir
-Esta categoría no debe existir, solo es para probar el revert de GitHub.
-
-Prueba 2
-
-Prueba 3
-
-Probandooooo
