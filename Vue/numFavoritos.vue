@@ -2,7 +2,7 @@
   <div>
     <h2>Mis números favoritos</h2>
     <input v-model="numero" placeholder="Agregar número" />
-    <button @click="addNumero" :disabled="esNumExistente">Agregar</button>
+    <button @click="addNumero" :disabled="validarNum">Agregar</button>
     <ul>
       <li v-for="(numero, index) in numFavoritos" :key="index">{{ numero }}</li>
     </ul>
@@ -18,6 +18,9 @@ export default {
     };
   },
   computed: {
+    validarNum() {
+      return this.esNumExistente || this.numero.length == 0;
+    },
     esNumExistente() {
       return this.numFavoritos.includes(parseInt(this.numero));
     },
@@ -32,3 +35,20 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* Estilos opcionales para el componente */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+</style>
