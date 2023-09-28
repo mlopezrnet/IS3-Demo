@@ -7,5 +7,6 @@ Este es un playground para subir commits y practicar con la herramienta de Contr
 ### Ramas
 - `main` Es la rama estable, contiene los cambios que han sido testeados.
 - `develop` Es la rama inestable, contiene todos los cambios a la fecha, incluyendo los que no han sido testeados.
+- `develop-karo` Rama inestable de @karolinaconk.
 
 También habrá feature branches donde se hospedarán los cambios para algún Pull Request o característica que sea de medio a largo plazo de desarrollo.
